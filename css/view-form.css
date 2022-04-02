@@ -1,0 +1,111 @@
+.app-form-wrap {
+	background: #FFF;
+	margin: 5px 5px 5px 5px;
+	padding: 20px 15px 20px 15px;
+	border-radius: 5px 5px 0 0;
+	border: 1px solid #dfdfdf;
+	font-size: 12px;
+}
+
+.app-from-wrap .app-form-toolbar {
+	height: 50px;
+	background: #fff;
+	border-radius: 5px 5px 0 0;
+	border: 1px solid #dfdfdf;
+	border-bottom: none;
+	padding: 5px 10px 5px 10px;
+	display: flex;
+	flex-direction: row;
+}
+
+.app-form-error-console {
+	padding: 10px 0 10px 0;
+	border-top: 1px solid red;
+	border-bottom: 1px solid red;
+	color: red;
+	margin-bottom: 20px;
+}
+
+.app-form-toolbar .toolbar-control-item {
+	min-width: 20px;
+	cursor: pointer;
+	margin: 2px 10px 2px 10px;
+	opacity: 70%;
+	padding: 28px 0 0 0;
+	font-size: 9px;
+	text-align: center;
+	text-transform: uppercase;
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: 22px 22px;
+}
+
+.app-form-toolbar .app-form-toolbar-spacer {
+	flex-grow: 100;
+}
+
+.app-form-toolbar .form-control-item {
+	margin-right: 10px;
+	display: inline-block;
+}
+
+.app-form {
+	padding: 0;
+	margin: 10px 0 0 0;
+	font-size: 12px;
+}
+
+.app-form .app-form-legend {
+	font-size: 1.8em;
+	width: 100%;
+}
+
+.app-form .markup-component .app-form-legend {
+	margin-bottom: 10px;
+}
+
+.app-form .markup-component {
+
+}
+
+.app-form .markup-component .markup-layout {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+@media ( min-width: 600px) {
+	.app-form .form-field-viewer {flex-basis: 33.33%; }
+}
+
+@media ( min-width: 800px) {
+	.app-form .form-field-viewer {flex-basis: 25%; }
+}
+
+@media ( min-width: 1000px) {
+	.app-form .form-field-viewer {flex-basis: 20%; }
+}
+
+@media ( min-width: 1200px) {
+	.app-form .form-field-viewer {flex-basis: 16.66%; }
+}
+
+@media ( min-width: 1400px) {
+	.app-form .form-field-viewer {flex-basis: 14.28%; }
+}
+
+@media ( min-width: 1400px) {
+	.app-form .form-field-viewer {flex-basis: 12.5%; }
+}
+
+.app-form .form-field-viewer label {
+	font-size: 1em;
+	padding-right: 10px;
+	user-select: none;
+}
+
+.app-form .form-field-viewer input {
+	margin-right: 20px;
+}

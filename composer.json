@@ -1,0 +1,32 @@
+{
+  "name": "sugrob/husky-assets",
+  "homepage": "https://github.com/sugrob/husky-assets",
+  "type": "assets-package",
+  "version": "0.1.0",
+  "license": "GPL-3.0",
+  "authors" : [
+    {
+      "name": "Dmitriy Snezhinskiy",
+      "email" : "sugrob2008@gmail.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/sugrob/composer-assets-installer"
+    }
+  ],
+  "require": {
+    "sugrob/composer-assets-installer": "dev-master"
+  },
+  "extra": {
+    "installer-paths": {
+      "sugrob/husky-assets" : "backend/public/assets/husky"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "sugrob/composer-assets-installer": true
+    }
+  }
+}

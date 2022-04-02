@@ -1,0 +1,28 @@
+body{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.auth-wrap {
+	width: 100%;
+	background: #FFF;
+	border-top: 2px solid #CFCFCF;
+	border-bottom: 2px solid #CFCFCF;
+	margin: auto 0 auto 0;
+	box-shadow:
+		0px 3px 10px #EFEFEF,
+		0px -3px 10px #EFEFEF;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+}
+
+.auth-box {
+	margin: 10px auto 10px auto;
+	height: auto;
+}
+
+.auth-box table td {
+	padding: 5px 0 5px 0;
+}
